@@ -9,7 +9,16 @@ pip install -r requirements.txt
 - ffmpeg
 
 ## How to use
-1. Write url and lecture name in input.txt
-  1. First line is url.
-  2. Second line is lecture name
-2. Run download.sh
+1. Download html file. File name should be "LearnUs.html".
+2. Write url and lecture name in input.txt  
+```
+- First line is url. 
+- Second line is lecture name
+
+example
+---input.txt---
+https://www.example.com
+computer science
+---------------  
+```
+3. Run download.sh
